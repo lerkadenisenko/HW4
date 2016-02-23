@@ -1,0 +1,268 @@
+html{
+    font-family: Tahoma, sans-serif;
+}
+*{
+    box-sizing: border-box;
+    margin:0 ;
+    padding:0;
+}
+.log{
+    float: left;
+    padding-left: 27px;
+    overflow: hidden;
+    height: 163px;
+}
+body{
+    font:13px/21px'Open Sans', sans-serif;
+    background-image:url(../img/background.png);
+}
+.Config{
+    background: white;
+    width: 999.99px;
+    margin: 0 auto;
+    padding-top: 10px;
+    box-shadow:0 0 10px rgba(0,0,0, .77) ;
+    position: relative;
+}
+.clear-fix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+/* Header*/
+.Logo{
+    color: #128aa7;
+}
+.Cont-verh{
+    float: right;
+    font-size: 12px;
+
+}
+ul{
+    list-style: none;
+}
+.Cont-menu-verh{
+    color:#5aaec2;
+    padding-left: 360px;
+    text-decoration: none;
+    text-shadow: 1px 0px 1px #89afc6;
+}
+.Cont-menu-niz{
+    padding-top: 10px;
+    float: right;
+    text-align: center;
+    width: 55px;
+    color: #128aa7;
+    text-shadow: 1px 0px 1px #89afc6;
+
+}
+.Cont-niz {
+  display: block;
+    width: 550px;
+    padding-right: 30px;
+
+}
+.Head-Right{
+    float: right;
+    width: 550px;
+    padding-right: 33px;
+    height: 159px;
+}
+.Head-menu{
+    border-bottom: 1px solid #128aa7;
+    height: 164px;
+   }
+/* CSidebar*/
+.central-menu__link{
+    display: block;
+    padding: 0 24px ;
+    color:white;
+    padding: 9px 24px 10px;
+    text-decoration: none;
+    text-shadow: 1px 0px 1px #b8b8b8;
+    z-index: 4;
+
+
+
+}
+.central-menu__item{
+    float: left;
+
+
+}
+.baner{
+    height: 237px;
+}
+
+p{
+    text-align: center;
+    font-size: 10px;
+
+}
+.central-menu{
+    background-color: black;
+    height: 30px;
+    border: 5px solid black;
+    border-bottom: 10px solid black;
+}
+span{
+    font-size:10px;
+}
+
+#mainmenu
+{
+    float:left;
+    height: 30px;
+    display: block;
+    width: 1000px;
+
+}
+#mainmenu ul
+{
+    list-style: none;
+    z-index: 8;
+
+}
+#mainmenu ul li
+{
+    position: relative;
+    float:left;
+    box-shadow: 0px 8px 14px -5px #000000;
+
+}
+#mainmenu ul li ul, #mainmenu ul li ul li
+{
+    width:auto;
+
+
+}
+#mainmenu li ul
+{
+    position: absolute;
+    left: 0;
+    top: 29px;
+    display: none;
+    float:left;
+    width: 1000px;
+    z-index: 8;
+
+}
+#mainmenu ul li a
+{
+    float:left;
+    color: white;
+    width:142.859px;
+    font-size:16px;
+    padding: 5px 0px 5px 0px;
+    text-align:center;
+    background-color: #303030;
+    height: 30px;
+    text-decoration: none;
+    text-shadow: 1px 0px 1px #b8b8b8;
+
+}
+#mainmenu li ul li a
+{
+    padding:6px 0px 3px 0px;
+    text-align:center;
+    font-size:12px;
+    width:142.859px;
+    background: #303030;
+}
+#mainmenu li ul li a:hover
+{
+    background: #303030;
+    color:White;
+}
+* html #mainmenu ul li { float: left; height: 1%;
+    }
+* html #mainmenu ul li a { height: 1%; }
+#mainmenu li:hover ul,
+#mainmenu  li.over ul { display: block;
+
+    }
+
+
+          /*Contrnt*/
+.bloki{
+    position: relative;
+    display: table;
+    width: 100%;
+    background: white;
+}
+.inf{
+    display: table-cell;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 208px;
+    background: #edeef0;
+    border-left: 1px solid #c7cacf;
+    border-right: 1px solid #c7cacf;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.7;
+}
+.inf h2{
+    font-size: 18px;
+    font-weight: bold;
+    color: #424c43;
+}
+.inf a{
+    text-decoration: none;
+    color: #424c43;
+}
+.inf a:hover{
+    text-decoration: underline;
+}
+.cent{
+    display: table-cell;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 580px;
+    background: white;
+}
+.news{
+    display: table-cell;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 208px;
+    background: #edeef0;
+    border-left: 1px solid #c7cacf;
+    border-right: 1px solid #c7cacf;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.7;
+    text-decoration: none;
+    list-style: none;
+}
+.news h2{
+
+    font-size: 18px;
+    font-weight: bold;
+    color: #424c43;
+}
+.news a{
+    text-decoration: none;
+    color: #424c43;
+}
+.news a:hover{
+    text-decoration: underline;
+}
+.clear-fix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*FOOTER*/
+.footer{
+    display: block;
+    padding-top: 9px;
+    padding-bottom: 12px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+
+
+
